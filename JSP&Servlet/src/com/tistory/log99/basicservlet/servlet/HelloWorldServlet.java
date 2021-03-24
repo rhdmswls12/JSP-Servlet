@@ -10,10 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class HelloWorldServlet extends HttpServlet {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = -2443447638448424650L;
+	
 	
 	public void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException,IOException{
 		response.setContentType("text/html");
@@ -21,6 +18,7 @@ public class HelloWorldServlet extends HttpServlet {
 		
 		out.println("<html>");
 		out.println("hello,world");
+		out.println("method:"+request.getMethod());
 		out.println("</html>");
 	}
 }

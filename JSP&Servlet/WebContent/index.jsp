@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	hello,world
+	hello,world<br>
+	<form action="/hello" method="post">
+	<input type="submit" value="submit">
+	</form>
 </body>
 </html>
