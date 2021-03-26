@@ -12,7 +12,7 @@
     try{
     Class.forName("com.mysql.jdbc.Driver");
     conn=DriverManager.getConnection(
-    "jdbc:mysql://localhost:3306/webdb","root","1234567890");
+    "jdbc:mysql://localhost:3306/webdb?characterEncoding=euckr&useUnicode=true&mysqlEncoding=euckr","root","1234567890");
     if(conn==null)
     throw new Exception("데이터베이스에 연결할 수 없습니다.");
     stmt=conn.createStatement();
