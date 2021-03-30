@@ -1,13 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>х╦©Ь ╟║ют ╟А╟З</title>
+<meta charset="utf8">
+<title>М ▄Л⌡░ Й╟─Л·┘ Й╡╟ЙЁ╪</title>
 </head>
 <body>
-<h3>х╦©Ь ╟║ют ╟А╟З</h3>
-╟║ют╣г╬З╫ю╢о╢ы.
+<h3>М ▄Л⌡░ Й╟─Л·┘ Й╡╟ЙЁ╪</h3>
+Й╟─Л·┘К░≤Л≈┬Л┼╣К▀┬К▀╓.
 </body>
 </html>
